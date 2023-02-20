@@ -1,0 +1,239 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*font importeren*/
+
+
+/*////////////////////////
+    1. Global Styles
+    color: #899CAO(grijs)
+    color: #1C2B32(donkergroen) ////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Setup */
+body {
+    font-family: Poppins, sans-serif;
+    color: #1C2B32;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-block: 64px
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* Horizontal center main content */
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    background: url('../assets/images/mountains.jpg') no-repeat center local;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-section {
+    padding: 96px 96px 400px;
+}
+
+.hero-input {
+    margin-top: 32px;
+    background-color: transparent;
+    color: #1C2B32;
+    font-size: 18px;
+    padding: 24px 32px;
+    width: 350px;
+    border: 2px solid #1C2B32;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+}
+
+.hero-input::placeholder {
+    color: #1C2B32;
+    font-size: 18px;
+}
+
+.hero-input:focus::placeholder {
+    color: transparent;
+}
+
+.hero-btn {
+    background-color: #1C2B32;
+    color: #fff;
+    font-size: 18px;
+    padding: 24px 32px;
+    border: 2px solid #1C2B32;
+    border-radius: 0 50px 50px 0;
+    outline: none;
+    margin-left: -7px;
+}
+
+.hero-btn:hover {
+    background-color: #899CA0;
+    color: #1C2B32;
+    cursor: pointer;
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonial-section {
+    margin-block: 64px;
+    position: relative;
+}
+
+.testimonial-article {
+    padding: 24px 96px 64px 150px;
+    margin-block: 64px;
+    border-radius: 12px;
+    /* Shadow */
+    box-shadow: 0 8px 18px 2px rgba(24, 39, 75, 0.12),
+    0 6px 20px 4px rgba(24, 39, 75, 0.12);
+}
+
+.testimonial-quote {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.testimonial-quote-icon {
+    position: relative;
+    left: -50px;
+    top: 36px;
+}
+
+.testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.testimonial-name {
+    display: inline;
+    margin-left: 24px;
+    font-style: italic;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+
+.support-section {
+    margin-block: 64px;
+}
+
+.support-img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.support-info {
+    margin-block: 24px;
+}
+
+.support-link {
+    color: #1C2B32;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+}
+
+.support-link:hover {
+    text-decoration: none;
+}
+
+.support-link:visited {
+    color: #899CA0;
+}
+
+.support-btn {
+    color: #ffffff;
+    background: #1C2B32;
+    padding: 24px 32px;
+    font-size: 18px;
+    border: 2px solid #1C2B32;
+    border-radius: 50px;
+    outline: none;
+}
+
+.support-btn:hover {
+    background-color: #899CA0;
+    color: #1C2B32;
+    cursor: pointer;
+}
+
+
+/*///////////// 3.4 Faq /////////////*/
+
+.faq-section {
+    margin-block: 64px;
+}
+
+.faq-collapsable {
+    padding: 24px 32px;
+    color: #ffffff;
+    background-color: #899CA0;
+    border-radius: 12px;
+}
+
+.faq-details {
+    margin-block: 24px;
+}
+
+.faq-summary {
+    margin-bottom: 10px;
+}
+
+.faq-summary:hover {
+    cursor: pointer;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
+
+.footer {
+    background-color: #1C2B32;
+    padding-block: 32px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
